@@ -30,7 +30,7 @@ hours_of_day = 0
 
 while count <= 10000:
     try:
-        api.update_status(f'this is my {day} day of counting, {count}/1000 \n #count #couting #pythonBot #python')
+        api.update_status(f'this is my {day} day of counting, {count}/10000 \n #count #couting #pythonBot #python')
     except Exception as e:
         msg['Subject'] = 'Twitter Bot Error!'
         message = f"Couldn't count to {count} error appeared: \n{e}"
